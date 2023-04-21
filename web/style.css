@@ -1,0 +1,257 @@
+body {
+    background-color: #f1baf2;
+    height: 100%;
+    padding-top: 50px;
+
+}
+
+nav.demo {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: HSL(314, 40%, 64%);
+    border: none;
+    border-bottom: 1px solid darkorchid;
+
+}
+
+table.main {
+    table-layout: fixed;
+}
+
+.navbar>.left {
+    float: left;
+}
+
+.primary> {
+    width: 30px;
+}
+
+table.primary tr {
+    height: 60px;
+    width: 30px;
+}
+
+table.msg {
+    font-size: small;
+}
+
+li a.home {
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: HSL(314, 40%, 64%);
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 1% 1%;
+    background-color: HSL(314, 40%, 64%);
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #F1BAF2;
+}
+
+div.used {
+    background-color: #F1BAF2;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding: 0;
+
+}
+
+.pseudo {
+    background-color: black;
+}
+
+.down {
+    border-bottom: 1px solid RGB(134, 27, 136);
+}
+
+.right {
+    border-right: 1px solid RGB(134, 27, 136);
+}
+
+.leftPad {
+    padding-left: 20px;
+}
+
+div.big {
+    height: 360px;
+}
+
+div.scrollable {
+    height: 182%;
+}
+
+.video {
+    border: none;
+    background-color: #F1BAF2;
+
+    width: 100%;
+    height: auto;
+}
+
+div.huge {
+    height: 200px;
+}
+
+div.small {
+    height: 140px;
+}
+
+div.smaller {
+    height: 60px;
+}
+
+div.rightpad {
+    padding-right: 50px;
+}
+
+div.jobtable {
+    height: 90%;
+}
+
+.jobtable.flex>table {
+    width: 100%;
+}
+
+.jobtable.flex.one.fourth>div {
+    height: 166px;
+}
+
+.jobtable.flex.one.fourth img {
+    height: 100%;
+}
+
+.jobtable.flex.two-third>.jtb {
+    height: 70%;
+}
+
+.jobtable.flex.third>.jtb {
+    height: 70%;
+}
+
+.jobtable.flex.two-third>.jts {
+    height: 30%;
+}
+
+.jobtable.flex.third>.jts {
+    height: 30%;
+}
+
+.jobtable.flex.third>.jtb>img {
+    width: 70%;
+}
+
+.jobtable.flex.two-third>.jtb.flex :first-child::first-line {
+    color: darkorchid;
+}
+
+div.sized {
+    height: 90%;
+}
+
+.sized.flex>table {
+    width: 100%;
+}
+
+.sized.flex.one.fourth>div {
+    height: 166px;
+}
+
+.sized.one.fourth img {
+    height: 33%;
+}
+
+.sized.flex.two-third>.full {
+    height: 350px;
+}
+
+.sized.flex.third>.full {
+    height: 350px;
+}
+
+.sized.flex.third>.full>img {
+    width: 300px;
+}
+
+.sized.flex.two-third>.full.flex :first-child::first-line {
+    color: darkorchid;
+
+}
+
+.navbar>.left {
+    width: 120px;
+}
+
+div.userleft {
+    height: 170px;
+}
+
+div.video {
+    height: 150px;
+}
+
+.full.video>video {
+    width: 320px;
+    height: 150px;
+}
+
+.primary {
+    height: 100%;
+    width: 100%;
+}
+
+.half.small>a>img {
+    width: 110px;
+}
+
+.half.small {
+    text-align: center;
+}
+
+td>article {
+    width: 40px;
+}
+
+article>video {
+    width: fit-content;
+    height: 300px;
+
+}
+
+.centercontent {
+    justify-content: center;
+}
+
+.primary.msg.main tr>td:first-child {
+    width: 30%;
+}
+
+.primary.msg.main tr>td:second-child {
+    width: 70%;
+}
+
+.jtb {
+    height: 70%;
+}
+
+.jts {
+    height: 30%;
+}
+
+
+/*add pseudoelemet and attributes + font*/
