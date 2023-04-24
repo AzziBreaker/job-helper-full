@@ -26,7 +26,7 @@
             <a class="pseudo button icon-picture" href="index.html">Home</a>
             <a class="pseudo button icon-picture" href="jobs.html">Available Jobs</a>
             <a class="pseudo button icon-picture" href="user.html">User</a>
-            <a class="pesudo button icon-picture" href="login.html">Log-in</a>
+            <a class="pseudo button icon-picture" href="login.html">Log-in</a>
             <a class="button icon-picture" href="register.html">Register</a>
         </div>
     </nav>
@@ -34,9 +34,13 @@
     <div class="body flex">
         <div class="flex">
             <div class="used jobtable off-third">
-                <form>
+                <form action="RegisterServlet" method="get">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone"><br><br>
                     <label for="password">Password:</label>
                     <input type="text" id="password" name="password"><br><br>
                     <input type="submit" value="Log-in">
